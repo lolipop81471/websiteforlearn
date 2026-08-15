@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WeatherMapApp</title>
-    <link href="/src/style.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <h1 class="text-3xl font-bold underline">WeatherMapApp</h1>
-      <h3>ค้นหาสภาพอากาศของเมือง</h3>
-      <div class="search-box"></div>
-      <input
-        type="text"
-        id="city-input"
-        placeholder="พิมพ์ชื่อเมือง (เช่น กรุงเทพ)..."
-      />
-      <button id="search-btn">ค้นหา</button>
-    </div>
-    <script src="main.js"></script>
+    <nav class="bg-zinc-800 p-4">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="text-white text-lg font-semibold">WeatherMapApp</div>
+          <div class="space-x-4">
+            <a href="#" class="text-white hover:text-gray-300">Home</a>
+            <a href="#" class="text-white hover:text-gray-300">About</a>
+            <a href="#" class="text-white hover:text-gray-300">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
